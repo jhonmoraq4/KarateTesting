@@ -1,0 +1,95 @@
+09:44:42.730 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+09:44:44.117 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:44:44.581 [main]  DEBUG com.intuit.karate - response time in milliseconds: 462
+1 < 200
+1 < Date: Sat, 24 Jun 2023 14:44:45 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: REVALIDATED
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4D3gTlKmGYohE5jziJnni0hAZvSXh9D0Vhq2wO2xWrS3ZfqFMXKTl6qBLGf6juphP0po%2FImEvq5M9iAWxUS7HbbT%2BZnndQhjvTu%2FUXtFwPMT1a%2B0OfAtrGTpwQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7dc5c024ae58867e-MAD
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+09:44:45.133 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/example/GradleGroovy/user.get/user-get.feature
+09:44:59.329 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+09:44:59.615 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1687617899611
+09:45:00.721 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:45:01.040 [main]  DEBUG com.intuit.karate - response time in milliseconds: 316
+1 < 200
+1 < Date: Sat, 24 Jun 2023 14:45:01 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: REVALIDATED
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=obcMeJ4%2BbdCvY7ZhlnqQNRx%2BOoRhDEJvI0BMMacDTfgd4c%2F4jEletWONamIs2aeAmLAJGcbeEk2qZn1XengIOsVXCLzveVNRzcQ2fenz7vAXg0uOtbUWTFa%2F1w%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7dc5c08ba88a384f-MAD
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+09:45:01.076 [main]  ERROR com.intuit.karate - src/test/java/com/example/GradleGroovy/user.get/user-get.feature:6
+Then status 400
+status code was: 200, expected: 400, response time in milliseconds: 316, url: https://reqres.in/api/users/2, response: 
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+src/test/java/com/example/GradleGroovy/user.get/user-get.feature:6
+09:45:01.575 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/com/example/GradleGroovy/user.get/user-get.feature
+09:49:40.291 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+09:49:41.251 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1687618181242
+09:49:45.294 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:49:45.899 [main]  DEBUG com.intuit.karate - response time in milliseconds: 595
+1 < 200
+1 < Date: Sat, 24 Jun 2023 14:49:46 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 5634
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gL%2FDvjd1sgm6uAQ%2BmF0Ud1WRXEyPbLC7uCw7z%2Fq2tdmLZX%2B6Bye8vRQn%2FbCUo1aaq%2BaU9Gv21h1no6yvZCE%2FubpdPhMqqpG5MLSkLKDnxqkzhE8z6Xu5k3Ktsw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7dc5c7807bab217a-MAD
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+09:49:46.959 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/example/GradleGroovy/user.get/user-get.feature

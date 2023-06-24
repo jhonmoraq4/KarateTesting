@@ -1,0 +1,24 @@
+plugins {
+	id 'java'
+
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	sourceCompatibility = '18'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+
+	testImplementation 'com.intuit.karate:karate-junit5:1.4.0.RC3'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
